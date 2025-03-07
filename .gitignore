@@ -1,11 +1,17 @@
 # Environment variables
 .env
+.env.*
+!.env.example
 
-# Database data
-volumes/db-data/
+# Backups
+backups/
 
 # Logs
 *.log
 
-# Docker related
-.docker/
+# Docker volumes (optional, depending on your setup)
+# volumes/data/
+
+# Operating system files
+.DS_Store
+Thumbs.db
