@@ -1,0 +1,11 @@
+# Environment variables
+.env
+
+# Database data
+volumes/db-data/
+
+# Logs
+*.log
+
+# Docker related
+.docker/
